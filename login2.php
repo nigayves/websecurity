@@ -17,7 +17,7 @@ background-position: center;
  text-align: center;
  padding: 25px;
  margin-bottom: 120px;
-height: 450px;
+height: 420px;
 font-size: 15px;
   border: 1px solid #ccc;
   border-radius: 10px;
@@ -107,9 +107,9 @@ input[type=submit]:hover {
     <label for="remember-me">Remember me</label><br><br><br>
   </div>
 
-    <div><input type="submit" name="Login" value="Login"></span></div>
-    <p><a href="verify2.php">Verify now</a></p>
-    <br><br>You don't have an account?&nbsp&nbsp<a href="index.html">Sign up</a>
+    <div><input type="submit" name="Login" value="Login"></span></div><br><br>
+    <a href="verify2.php">Verify now</a>
+    <br><br>You don't have an account?&nbsp&nbsp<a href="signup.php">Sign up</a>
   </div>  
 </center> 
 </form>
