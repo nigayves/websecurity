@@ -35,7 +35,7 @@ if(!empty($_POST['remember'])){
 	echo "<p align='center'>Cookies saved successfully";
 }}
 else
-{header("location:verify2.php");}}
+{header("location:login2.php");}}
 else{
 	echo "<script>alert('Wrong username or password!')</script>";
  	echo "<script>location.href='index.php'</script>";
